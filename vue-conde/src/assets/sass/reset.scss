@@ -1,0 +1,53 @@
+html, body, div, span, em, img, b, i, dl, dt, dd, ol, ul, li, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-style: normal;
+	vertical-align: baseline;
+}
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	background: #eff2f0;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+	word-break: break-all;
+}
+ul, ol{
+	list-style: none;
+}
+a {
+	&:link, &:active, &:visited{
+		color: #333;
+		text-decoration: none;
+	}
+}
+input, textarea, button {
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	-webkit-border-radius: 0;
+	border-radius: 0;	
+	-webkit-appearance: none;
+	outline: none;
+}
+input {
+	&::-webkit-input-placeholder{
+		color: #999;
+	}	
+}
+.clearfix {
+	&:after{
+		content: '';
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+}
+
+/********************************* reset end *********************************/
